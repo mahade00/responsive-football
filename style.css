@@ -1,0 +1,163 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common utility */
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------------ 
+header css start
+--------------------*/
+
+.head-container{
+    width: 100%;
+    height: 677px;
+   background-color: #2D25A0;
+   padding-top: 36px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    padding-left: 156px;
+
+}
+
+.menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 26px;
+ 
+    
+}
+
+.menu button{
+    color: white;
+    background-color: #E02C6D;
+    height: 44px;
+    width: 123px;    
+    top: 0px;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+ }
+
+ .menu button i{
+     padding-right: 6px;
+ }
+
+ .loginbutton{
+     padding-left: 450px;
+     }
+
+ .menu h1{
+    color: white;
+ }
+
+ .head-banner{
+     display: flex;
+     flex-direction: row;
+     padding-top: 60px;
+     justify-content: space-evenly;
+     align-content: center;
+    align-items: center;
+ }
+
+ .head-banner img{
+     height: 438px;
+     width: 556px;
+ }
+
+ .head-banner h1{
+     color:  #FFFFFF;
+     font-size: 48px;
+ }
+
+.watch-btn button {
+     color:#FFFFFF;
+    background-color: #E02C6D;
+    border: none;
+    height: 44px;
+    width: 168px;  
+    cursor: pointer;  
+ }
+
+ .watch-btn i{
+     padding-left: 12px;
+ }
+ /* ---------------
+ header css end 
+ --------------- */
+
+ /*-------------
+  main css start
+  --------------- */
+  .players{
+      margin: 70px 180px 0px 180px;
+      display: grid;
+      grid-template: repeat(4, 456px)/repeat(3, 330px);
+      grid-gap: 30px;
+     justify-content: center;
+  }
+article{      
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .player-details{
+      padding: 15px;
+  }
+  .player-details img{
+    height: 256px;
+    width: 300px;
+}
+.player-details h3{   
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+}
+.player-details p{ 
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+color: #6C6C6C;
+}
+/* -----------------
+main css end 
+----------------- */
+
+/* ------------------
+highlights css start
+---------------------  */
+.highlights{
+    margin: 165px 182px 0px 253px ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+   
+}
+.highlights h1{ 
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+}
+.highlights p{
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: #6C6C6C;
+
+}
+.highlights img{
+    height:427px ;
+    width:567px ;
+}
