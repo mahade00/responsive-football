@@ -203,6 +203,15 @@ subscribe css start
 }
 .subscribe h2{
     text-align: center;
+    
 }
+.subscribe input[type=text] {
+    width: 50%;
+    padding: 12px 20px;    
+    border: 2px solid #E02C6D ;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+  }
 
 
