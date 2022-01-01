@@ -165,6 +165,7 @@ color: #6C6C6C;
 highlights css end
 ---------------------  */
 
+
 /* ---------------------
 gallery css start 
 ---------------------  */
@@ -195,23 +196,40 @@ gallery css start
 gallery css end 
 ---------------------  */
 
+
 /* ---------------------
 subscribe css start 
 ---------------------  */
 .subscribe{
     margin: 70px 180px 0 180px;
 }
-.subscribe h2{
+/* .subscribe h2{
     text-align: center;
     
-}
+} */
 .subscribe input[type=text] {
     width: 50%;
     padding: 12px 20px;    
-    border: 2px solid #E02C6D ;
+    border: 2.5px solid #c2396ba9 ;
     border-radius: 4px;
     box-sizing: border-box;
     display: inline-block;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    line-height: 1.5;
+  }
+  .subscribe input[type=text]:focus{
+      border:3px solid  #E02C6D;
+  }
+
+   form .subscribe-btn {
+    color:#FFFFFF;
+    background-color: #E02C6D;
+    border: none;
+    height: 44px;
+    width: 168px;  
+    cursor: pointer; 
   }
 
 
