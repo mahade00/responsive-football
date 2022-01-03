@@ -221,9 +221,8 @@ subscribe css start
     border: 2.5px solid #c2396ba9 ;
     border-radius: 4px;
     box-sizing: border-box;
-    display: inline-block;
-   
-    transition: 0.5s;
+    display: inline-block;   
+    /* transition: 0.5s; */
     outline: none;
     line-height: 2;
   }
@@ -237,11 +236,36 @@ subscribe css start
     color:#FFFFFF;
     background-color: #E02C6D;
     border: none;
-    height: 48px;
-    width: 165px;
+    height: 47px;
+    width: 163px;
     cursor: pointer;
     border-radius: 3px;
 }
+/* ---------------------
+subscribe css end 
+---------------------  */
 
-
-
+/* ---------------------
+footer css start 
+---------------------  */
+.footer-end{
+    margin: 100px 475px 56px 475px;
+}
+.footer-inside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .logo img{
+     height: 110px;
+     width: 483.87px;
+ }
+ .social-icons{
+    display: flex;
+    flex-direction: row;
+ }
+.social-icons img{ 
+    height: 32px;
+    width: 32px;
+    padding: 0 14px 0 0;
+}
