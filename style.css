@@ -248,7 +248,7 @@ subscribe css end
 /* ---------------------
 footer css start 
 ---------------------  */
-.footer-end{
+.footer-main{
     margin: 100px 475px 56px 475px;
 }
 .footer-inside{
@@ -268,4 +268,8 @@ footer css start
     height: 32px;
     width: 32px;
     padding: 0 14px 0 0;
+}
+.copyright p{
+    font-size: 18px;
+    line-height: 24px;
 }
