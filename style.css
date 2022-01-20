@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* common utility */
-body{
-    margin: 0;
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding:0;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -46,9 +50,8 @@ header css start
  .loginbutton{
      padding-left: 450px;
      }
-.loginbutton img{
-    height: 24px;
-    width: 24px;
+.loginbutton i{
+    padding-right: 8px;
 }
  .menu h1{
     color: white;
@@ -196,7 +199,7 @@ gallery css end
 subscribe css start 
 ---------------------  */
 .subscribe{
-    margin: 70px 180px 0 180px;
+    margin: 70px auto 0 auto;
 }
 .subscribe h2{
     text-align: center;
@@ -211,7 +214,7 @@ subscribe css start
 
 
 .subscribe input[type=text] {
-    width: 50%;
+    width: 38%;
     padding: 12px 20px;    
     border: 2.5px solid #c2396ba9 ;
     border-radius: 4px;
@@ -228,7 +231,7 @@ subscribe css start
 
    form .subscribe-btn {
     position: absolute;
-    margin-left: 407px;
+    margin-left: 404px;
     color:#FFFFFF;
     background-color: #E02C6D;
     border: none;
@@ -245,7 +248,7 @@ subscribe css end
 footer css start 
 ---------------------  */
 .footer-main{
-    margin: 100px 475px 56px 475px;
+    margin: 100px auto 56px auto;
 }
 .footer-inside{
     display: flex;
@@ -260,10 +263,11 @@ footer css start
     display: flex;
     flex-direction: row;
  }
-.social-icons img{ 
+.social-icons i{ 
+    color:#969BAB;
     height: 32px;
     width: 32px;
-    padding: 0 14px 0 0;
+    /* padding: 0 14px 0 0; */
 }
 .copyright p{
     font-size: 18px;
@@ -272,3 +276,21 @@ footer css start
 /* ---------------------
 footer css end 
 ---------------------  */
+
+/* ---------------------
+    responsive
+---------------------  */
+@media screen and (min-width: 320px) and (max-width: 688px){
+    .head-container{
+        width: 100%;
+        
+    }
+    .menu{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .loginbutton{
+        padding-left: 25px;
+    }
+
+}
