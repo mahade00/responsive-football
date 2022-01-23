@@ -385,6 +385,16 @@ footer css end
     .subscribe .subscribe-btn{
         margin-left: 404px;
     }
+     /* subscribe end  */
 
+     /* footer start  */
+     .footer-main{
+         margin:38px 0 0 0;
+     }
+     .logo img{
+         height: 63px;
+         width: 230px;
+     }
+      /* footer end  */
 
 }
