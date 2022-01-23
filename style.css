@@ -302,7 +302,7 @@ footer css end
         padding: 0px;
     }
     .heading-n-btn{
-        padding:10px 0 0 139px;
+        padding:10px 0 0 129px;
     }
     .heading-n-btn h1{
         font-size: 36px;
@@ -310,7 +310,7 @@ footer css end
     .heading-image img{
         height: 259px;
         width: 329px;
-        padding: 50px 0 0 89px;
+        padding: 50px 0 0 74px;
     }
     /* header end  */
 
@@ -320,7 +320,71 @@ footer css end
         grid-template-columns: repeat(1,1fr);
         
     }
+    /* player-details end  */
 
+    /* highlights start  */
+    .highlights{
+        margin:60px 0 60px 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:29px;
+        padding:0 24px 0 44px;
+    }
+    .highlights  h1{
+        font-size: 30px;
+        line-height: 40px;
+        
+    }
+    .highlights  p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .highlights  img{
+        width: 328px;
+        height: 248px;
+    }
+    /* highlights end  */
+
+    /* gallery start  */
+    .gallery{
+        margin:0;
+        padding: 0 15px 0 44px;
+    }
+   
+    .gallery h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .gallery-pic{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .gallery-pic img{
+        width: 328px;
+        height: 248px; 
+    }
+    .gallery-pic h3{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    /* gallery end  */
+
+    /* subscribe start  */
+    .subscribe{
+       margin: 10px 0 0 0;
+    }
+    .subscribe-items h2{
+        font-size: 18px;
+    }   
+    .subs-box-n-btn{
+        padding: 0px 142px 0px 0px;
+      }
+    .subscribe input[type=text] {
+        width: 72%;
+      }
+    .subscribe .subscribe-btn{
+        margin-left: 404px;
+    }
 
 
 }
