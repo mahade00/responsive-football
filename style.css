@@ -383,7 +383,9 @@ footer css end
         width: 72%;
       }
     .subscribe .subscribe-btn{
-        margin-left: 404px;
+        width: 139px;
+        
+        margin: 0 15px 0 404px ;
     }
      /* subscribe end  */
 
