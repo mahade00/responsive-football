@@ -277,8 +277,31 @@ footer css start
 footer css end 
 ---------------------  */
 
+
+/*---------------------
+      transition start
+-----------------------  */
+.heading-image img{
+    transition: height 1.5s ,width 1.5s ease-in-out ;
+}
+.heading-image:hover img{
+    height: 470px;
+    width: 600px;
+    
+}
+.watch-btn button {
+   transition: width 1s linear;
+}
+.watch-btn:hover button{    
+    width:175px ;
+    background-color: #f30564;
+}
+/*---------------------
+      transition end
+-----------------------  */
+
 /* ---------------------
-    responsive
+    responsive start
 ---------------------  */
 @media screen and (max-width: 688px){
 
@@ -383,8 +406,7 @@ footer css end
         width: 72%;
       }
     .subscribe .subscribe-btn{
-        width: 139px;
-        
+        width: 139px;        
         margin: 0 15px 0 404px ;
     }
      /* subscribe end  */
@@ -400,3 +422,6 @@ footer css end
       /* footer end  */
 
 }
+/* ---------------------
+    responsive end
+---------------------  */
